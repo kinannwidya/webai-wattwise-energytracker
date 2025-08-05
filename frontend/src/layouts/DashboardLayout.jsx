@@ -64,7 +64,7 @@ const DashboardLayout = () => {
 
       {/* Main Content */}
       <main
-        className={`flex-1 px-4 md:px-8 overflow-y-auto transition-all duration-300 ease-in-out pt-20 ${
+        className={`flex-1 px-4 md:px-8 transition-all duration-300 ease-in-out pt-20 ${
           isSidebarCollapsed ? '' : 'ml-64'
         }`}
       >
